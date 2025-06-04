@@ -1,2 +1,2 @@
-# U1-W2-D2
+Esercizi su JavaScript riguardo agli array, oggetti e IF-ELSE
 
