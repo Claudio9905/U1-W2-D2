@@ -126,14 +126,13 @@ if (totalShoppingCart > 50) {
 const valore1 = 20;
 const valore2 = 2;
 const valore3 = 15;
+const array_sort = [];
 
-if (valore1 > valore2 && valore1 > valore3 && valore2 < valore3) {
-  console.log(
-    "L'ordine dei numeri è questo: " + valore1 + " " + valore3 + " " + valore2
-  );
-} else {
-  console.log("Non sono in ordine");
-}
+array_sort.push(valore1);
+array_sort.push(valore2);
+array_sort.push(valore3);
+array_sort.sort((a, b) => a - b);
+console.log(array_sort);
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
