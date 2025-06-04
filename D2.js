@@ -56,6 +56,7 @@ if (val1 === 8) {
 
 const somma = val1 + val2;
 const sottrazione = val1 - val2;
+const sottrazione2 = val2 - val1;
 
 if (somma === 8) {
   console.log("La loro somma è uguale a 8");
@@ -64,6 +65,8 @@ if (somma === 8) {
 }
 
 if (sottrazione === 8) {
+  console.log("La loro sottrazione è uguale a 8");
+} else if (sottrazione2 === 8) {
   console.log("La loro sottrazione è uguale a 8");
 } else {
   console.log("La loro sottrazione non è uguale ad 8");
